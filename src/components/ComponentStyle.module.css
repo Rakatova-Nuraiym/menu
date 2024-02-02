@@ -1,0 +1,38 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800;1,900&display=swap'); 
+ 
+.salat_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.salat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: rgb(238, 233, 233);
+  width: 350px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.ingridients {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.prise_weight {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  margin: 10px;
+}
+
+.salat img {
+  width: 220px;
+  margin-top: 30px;
+} */

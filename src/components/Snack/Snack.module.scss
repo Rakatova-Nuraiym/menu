@@ -1,0 +1,46 @@
+* {
+  font-family: italic;
+}
+
+#salat_card {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin: 100px;
+  #snack {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(238, 233, 233);
+    max-width: 350px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: italic;
+    border: 1px solid gray;
+    padding: 30px;
+    gap: 20px;
+    .ingridients {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      justify-content: center;
+    }
+  }
+  .prise_weight {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    gap: 20px;
+  }
+
+  img {
+    width: 260px;
+  }
+  p {
+    color: gray;
+  }
+}
